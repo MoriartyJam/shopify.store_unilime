@@ -44,4 +44,6 @@ Step 7: Push updates to your theme
 theme watch
 
 
-On the http://127.0.0.1:8000/api/lead/ url, enter data in the form and click the Post button. After that we can see your data on http://127.0.0.1:8000/ page.
+4.How to Check the Project
+
+Come to https://test-1111111111111111111111111111111111711111111111113443.myshopify.com/products/platinum-laundry-detergent-fragrance-free
