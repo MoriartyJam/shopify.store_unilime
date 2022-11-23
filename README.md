@@ -1,2 +1,2 @@
 # shopify.store_unilime
-Create custome theme for shopify store. 
+Work with the standard Shopify theme to enhance product options functionality, display relevant photos, and design the main page styling process.
