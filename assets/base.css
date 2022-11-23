@@ -667,6 +667,7 @@ h6:empty {
 
 a:not([href]) {
   cursor: not-allowed;
+  color: rgb(var(--color-foreground));
 }
 
 .circle-divider::after {
@@ -2957,3 +2958,13 @@ details-disclosure > details {
     outline: transparent solid 1px;
   }
 }
+
+
+  .variant-wrapper {
+    margin-right: 10px;
+    display: flex;
+
+  }
+
+
+

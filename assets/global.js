@@ -766,6 +766,7 @@ class VariantSelects extends HTMLElement {
       this.toggleAddButton(true, '', true);
       this.setUnavailable();
     } else {
+      this.filterMedia();
       this.updateMedia();
       this.updateURL();
       this.updateVariantInput();
@@ -773,6 +774,20 @@ class VariantSelects extends HTMLElement {
       this.updateShareUrl();
     }
   }
+
+  filterMedia() {
+    
+         $('[thumbnail-color]').hide();
+    
+    var selected_variant = this.currentVariant.featured_media.alt;
+    
+    var selected_attribute = '[thumbnail-color="' + selected_variant + '"]';
+    
+    if (selected_variant == selected_variant) {
+      
+      $(selected_attribute).show();
+
+    } }
 
   updateOptions() {
     this.options = Array.from(this.querySelectorAll('select'), (select) => select.value);

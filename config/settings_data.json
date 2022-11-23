@@ -27,11 +27,11 @@
     "buttons_shadow_vertical_offset": 4,
     "buttons_shadow_blur": 5,
     "variant_pills_border_thickness": 1,
-    "variant_pills_border_opacity": 55,
-    "variant_pills_radius": 40,
-    "variant_pills_shadow_opacity": 0,
-    "variant_pills_shadow_horizontal_offset": 0,
-    "variant_pills_shadow_vertical_offset": 4,
+    "variant_pills_border_opacity": 30,
+    "variant_pills_radius": 0,
+    "variant_pills_shadow_opacity": 5,
+    "variant_pills_shadow_horizontal_offset": -6,
+    "variant_pills_shadow_vertical_offset": 6,
     "variant_pills_shadow_blur": 5,
     "inputs_border_thickness": 1,
     "inputs_border_opacity": 55,
@@ -125,18 +125,18 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "announcement-bar-0": {
+          "18586040-4d71-402f-b867-deabb0b78c43": {
             "type": "announcement",
             "settings": {
               "text": "Welcome to our store",
               "text_alignment": "center",
-              "color_scheme": "background-1",
+              "color_scheme": "accent-1",
               "link": ""
             }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "18586040-4d71-402f-b867-deabb0b78c43"
         ],
         "settings": {}
       },
@@ -144,15 +144,15 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo": "{{ shop.brand.logo }}",
-          "logo_width": 90,
-          "logo_position": "middle-left",
+          "logo": "shopify:\/\/shop_images\/imgonline-com-ua-Resize-XsQHCkw8nRPtl.jpg",
+          "logo_width": 190,
+          "logo_position": "middle-center",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
           "show_line_separator": true,
           "enable_sticky_header": true,
           "mobile_logo_position": "center",
-          "margin_bottom": 0,
+          "margin_bottom": 20,
           "padding_top": 20,
           "padding_bottom": 20
         }
@@ -214,7 +214,8 @@
           "color_scheme": "background-1"
         }
       }
-    }
+    },
+    "content_for_index": []
   },
   "presets": {
     "Default": {

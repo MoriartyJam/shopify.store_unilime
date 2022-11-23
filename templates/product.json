@@ -3,20 +3,43 @@
     "main": {
       "type": "main-product",
       "blocks": {
-        "vendor": {
-          "type": "text",
-          "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
-          }
-        },
         "title": {
           "type": "title",
           "settings": {}
         },
-        "price": {
-          "type": "price",
+        "vendor": {
+          "type": "text",
+          "settings": {
+            "text": "100% Detergent Fragrance-free",
+            "text_style": "body"
+          }
+        },
+        "description": {
+          "type": "description",
           "settings": {}
+        },
+        "ab6ec2f3-17c2-4dc2-aca8-2d2340811191": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Perfect for stinky workout gear",
+            "text_style": "body"
+          }
+        },
+        "share": {
+          "type": "share",
+          "disabled": true,
+          "settings": {
+            "share_label": "Share"
+          }
+        },
+        "a3773864-a9ed-43f9-8115-60187d3cc980": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Text blocczczczck{{ product.metafields.custom.name.value }}",
+            "text_style": "body"
+          }
         },
         "variant_picker": {
           "type": "variant_picker",
@@ -28,15 +51,15 @@
           "type": "quantity_selector",
           "settings": {}
         },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
-            "show_dynamic_checkout": true
+            "show_dynamic_checkout": false
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
         },
         "collapsible-row-0": {
           "type": "collapsible_tab",
@@ -74,26 +97,31 @@
             "page": ""
           }
         },
-        "share": {
-          "type": "share",
+        "146b1e38-489e-45c3-b30c-6bbe0ee9890f": {
+          "type": "text",
+          "disabled": true,
           "settings": {
-            "share_label": "Share"
+            "text": "Text block",
+            "text_style": "body"
           }
         }
       },
       "block_order": [
-        "vendor",
         "title",
-        "price",
+        "vendor",
+        "description",
+        "ab6ec2f3-17c2-4dc2-aca8-2d2340811191",
+        "share",
+        "a3773864-a9ed-43f9-8115-60187d3cc980",
         "variant_picker",
         "quantity_selector",
+        "price",
         "buy_buttons",
-        "description",
         "collapsible-row-0",
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "146b1e38-489e-45c3-b30c-6bbe0ee9890f"
       ],
       "settings": {
         "enable_sticky_info": true,
@@ -107,36 +135,103 @@
         "padding_bottom": 12
       }
     },
+    "ccd0fefe-e572-49e5-b3ab-add9e2d98d7e": {
+      "type": "video",
+      "settings": {
+        "heading": "",
+        "heading_size": "h1",
+        "cover_image": "shopify:\/\/shop_images\/young-man-fills-a-box-with-packing.jpg",
+        "video_url": "https:\/\/www.youtube.com\/watch?v=HeVrxO8KvTM",
+        "description": "Art",
+        "full_width": false,
+        "color_scheme": "background-1",
+        "padding_top": 100,
+        "padding_bottom": 64
+      }
+    },
+    "6057045e-e5bd-4785-829b-ecbc9d43b6dd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16932315955500__6057045e-e5bd-4785-829b-ecbc9d43b6dd-1669122123c12158b4-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "<p>PYREI<\/p>",
+            "heading_size": "h1"
+          }
+        },
+        "template--16932315955500__6057045e-e5bd-4785-829b-ecbc9d43b6dd-1669122123c12158b4-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Is he staying arrival address earnest. To preference considered it themselves inquietude collecting estimating. View park for why gay knew face. Next than near to four so hand. Times so do he downs me would. Witty abode party her found quiet law. They door four bed fail now have.<br\/><br\/>Started his hearted any civilly. So me by marianne admitted speaking. Men bred fine call ask. Cease one miles truth day above seven. Suspicion sportsmen provision suffering mrs saw engrossed something. Snug soon he on plan in be dine some.<br\/><br\/><\/p>"
+          }
+        },
+        "template--16932315955500__6057045e-e5bd-4785-829b-ecbc9d43b6dd-1669122123c12158b4-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "More information",
+            "button_link": "shopify:\/\/blogs\/news",
+            "button_style_secondary": false,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16932315955500__6057045e-e5bd-4785-829b-ecbc9d43b6dd-1669122123c12158b4-0",
+        "template--16932315955500__6057045e-e5bd-4785-829b-ecbc9d43b6dd-1669122123c12158b4-1",
+        "template--16932315955500__6057045e-e5bd-4785-829b-ecbc9d43b6dd-1669122123c12158b4-2"
+      ],
+      "settings": {
+        "desktop_content_position": "center",
+        "content_alignment": "center",
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "image-with-text": {
       "type": "image-with-text",
       "blocks": {
         "image-with-text-0": {
           "type": "heading",
           "settings": {
-            "heading": "Image with text",
+            "heading": "{{ product.metafields.custom.name.value }}",
             "heading_size": "h1"
           }
         },
         "image-with-text-1": {
           "type": "text",
           "settings": {
-            "text": "<p>Pair text with an image to focus on your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+            "text": "<p>{{ product.metafields.custom.description | metafield_tag }}<\/p>",
             "text_style": "body"
+          }
+        },
+        "16dab40d-afb4-4f00-a571-a24c7e788500": {
+          "type": "caption",
+          "disabled": true,
+          "settings": {
+            "caption": "Add a tagline",
+            "text_style": "caption-with-letter-spacing",
+            "text_size": "medium"
           }
         }
       },
       "block_order": [
         "image-with-text-0",
-        "image-with-text-1"
+        "image-with-text-1",
+        "16dab40d-afb4-4f00-a571-a24c7e788500"
       ],
       "settings": {
-        "height": "small",
-        "desktop_image_width": "medium",
-        "layout": "text_first",
+        "image": "shopify:\/\/shop_images\/203118.jpg",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
         "desktop_content_position": "top",
         "desktop_content_alignment": "left",
         "content_layout": "no-overlap",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "mobile_content_alignment": "left",
         "padding_top": 36,
         "padding_bottom": 36
@@ -144,6 +239,7 @@
     },
     "multicolumn": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "column-0": {
           "type": "column",
@@ -187,6 +283,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "heading": "You may also like",
         "heading_size": "h2",
@@ -201,12 +298,173 @@
         "padding_top": 36,
         "padding_bottom": 28
       }
+    },
+    "1a359823-ed37-4f02-a502-4c89c53645a6": {
+      "type": "featured-product",
+      "disabled": true,
+      "blocks": {
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-0": {
+          "type": "text",
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-2": {
+          "type": "price",
+          "settings": {}
+        },
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-3": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-4": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-5": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_dynamic_checkout": true
+          }
+        },
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-6": {
+          "type": "share",
+          "settings": {
+            "share_label": "Share"
+          }
+        }
+      },
+      "block_order": [
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-0",
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-1",
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-2",
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-3",
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-4",
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-5",
+        "template--16932315955500__1a359823-ed37-4f02-a502-4c89c53645a6-1669121950605c5623-6"
+      ],
+      "settings": {
+        "product": "",
+        "color_scheme": "background-1",
+        "secondary_background": false,
+        "media_position": "left",
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "c24ba941-d361-4767-ae49-8614ae7e83d0": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "heading": "Blog posts",
+        "heading_size": "h1",
+        "blog": "news",
+        "post_limit": 3,
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_image": true,
+        "show_date": true,
+        "show_author": false,
+        "show_view_all": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "4a17cb5a-be1d-4ba7-8f93-bfc0e30231a6": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16932315955500__4a17cb5a-be1d-4ba7-8f93-bfc0e30231a6-1669121949b53fe1cd-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16932315955500__4a17cb5a-be1d-4ba7-8f93-bfc0e30231a6-1669121949b53fe1cd-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        },
+        "template--16932315955500__4a17cb5a-be1d-4ba7-8f93-bfc0e30231a6-1669121949b53fe1cd-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16932315955500__4a17cb5a-be1d-4ba7-8f93-bfc0e30231a6-1669121949b53fe1cd-0",
+        "template--16932315955500__4a17cb5a-be1d-4ba7-8f93-bfc0e30231a6-1669121949b53fe1cd-1",
+        "template--16932315955500__4a17cb5a-be1d-4ba7-8f93-bfc0e30231a6-1669121949b53fe1cd-2"
+      ],
+      "settings": {
+        "title": "Collections",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1b34996d-7a1a-4db6-9890-1dfde26ced5c": {
+      "type": "newsletter",
+      "blocks": {
+        "template--16932315955500__1b34996d-7a1a-4db6-9890-1dfde26ced5c-166912194963e1ebc1-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Subscribe to our emails",
+            "heading_size": "h1"
+          }
+        },
+        "template--16932315955500__1b34996d-7a1a-4db6-9890-1dfde26ced5c-166912194963e1ebc1-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Be the first to know about new collections and exclusive offers.<\/p>"
+          }
+        },
+        "template--16932315955500__1b34996d-7a1a-4db6-9890-1dfde26ced5c-166912194963e1ebc1-2": {
+          "type": "email_form",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "template--16932315955500__1b34996d-7a1a-4db6-9890-1dfde26ced5c-166912194963e1ebc1-0",
+        "template--16932315955500__1b34996d-7a1a-4db6-9890-1dfde26ced5c-166912194963e1ebc1-1",
+        "template--16932315955500__1b34996d-7a1a-4db6-9890-1dfde26ced5c-166912194963e1ebc1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
     }
   },
   "order": [
     "main",
+    "ccd0fefe-e572-49e5-b3ab-add9e2d98d7e",
+    "6057045e-e5bd-4785-829b-ecbc9d43b6dd",
     "image-with-text",
     "multicolumn",
-    "product-recommendations"
+    "product-recommendations",
+    "1a359823-ed37-4f02-a502-4c89c53645a6",
+    "c24ba941-d361-4767-ae49-8614ae7e83d0",
+    "4a17cb5a-be1d-4ba7-8f93-bfc0e30231a6",
+    "1b34996d-7a1a-4db6-9890-1dfde26ced5c"
   ]
 }
